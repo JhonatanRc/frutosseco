@@ -1,13 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace demomvc.Controllers
+namespace demomvc.Models
 {
     public class Contacto
     {
-        public string Correo {get;set;}
+        public string Correo { get; set; }
 
         public string Telefono {get;set;}
 
